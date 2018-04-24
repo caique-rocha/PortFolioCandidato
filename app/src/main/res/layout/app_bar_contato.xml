@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.java.malcoln.candidato.FormContato">
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:contentDescription="?android:attr/candidatesTextStyleSpans" />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/etTo"
+            android:text="@string/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assunto:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/etSubject"
+            android:textStyle="italic"
+            android:hint="        ... Digite aqui seu assunto!"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensagem:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:textStyle="italic"
+            android:hint=".......\n     \n      Por favor deixe sua mensagem ou sugestão aqui neste campo que retornarei o quanto antes.\n Obrigado eleitor!...."
+            android:id="@+id/etMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:src="@drawable/hand_positivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/side_nav_bar2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+        <Button android:id="@+id/btnOK"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENVIAR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

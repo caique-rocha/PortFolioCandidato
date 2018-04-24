@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "584513114605",
+    "firebase_url": "https://candidatomessenger.firebaseio.com",
+    "project_id": "candidatomessenger",
+    "storage_bucket": "candidatomessenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584513114605:android:1bf689e197554a6b",
+        "android_client_info": {
+          "package_name": "com.java.malcoln.candidato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584513114605-3desmk6o9vdkn957at945hh7pg1p3kd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.java.malcoln.candidato",
+            "certificate_hash": "B0E67DD0D810B923895FBAF7AA4647437DF15AD0"
+          }
+        },
+        {
+          "client_id": "584513114605-lunjl212cssj5em7t8iuivjuocdvs6j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA46YYWG2fG4nxoHc38dRO63Jr0J7HCcaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_intro" android:icon="@drawable/urna"
+            android:title="ELEIÇÕES 2016" />
+        <item android:id="@+id/nav_mapa" android:icon="@drawable/ic_person_black_48px"
+            android:title="CANDIDATO" />
+        <item android:id="@+id/nav_onibus" android:icon="@drawable/lista_propostas"
+            android:title="PROPOSTAS" />
+        <item android:id="@+id/nav_empregos" android:icon="@drawable/ic_noticias_svg"
+            android:title="NOTÍCIAS" />
+        <item android:id="@+id/nav_manage" android:icon="@drawable/calendar"
+            android:title="EVENTOS" />
+        <item android:id="@+id/nav_face" android:icon="@drawable/ic_facebook_svg"
+            android:title="FACEBOOK" />
+        <item android:id="@+id/nav_video" android:icon="@drawable/ic_entrevista"
+            android:title="VIDEOS-ENTREVISTA" />
+
+        <item android:id="@+id/nav_chat" android:icon="@drawable/ic_chat_svg"
+            android:title="CHAT-GRUPO" />
+        <item android:id="@+id/nav_msg" android:icon="@drawable/ic_mail_svg"
+            android:title="E.MAIL-CONTATO" />
+        <item android:id="@+id/nav_send" android:icon="@drawable/ic_queue_music_black_48px"
+            android:title="JINGLE" />
+
+    </group>
+
+
+
+
+</menu>

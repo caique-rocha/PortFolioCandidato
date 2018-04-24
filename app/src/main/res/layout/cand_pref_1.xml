@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fafad4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<TableLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    tools:ignore="RtlHardcoded">
+    <TextView android:text="@string/nossa_cidade"
+        />
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        tools:ignore="SmallSp" />
+    <TextView android:text="@string/esta_p_gina_o_candidato_pode_colocar_o_seu_ponto_de_vista_sobre_os_problemas_e_dificuldades_que_ocorrem_na_cidade_ou_gest_o_atual_n_n_o_momento_de_demonstrar_que_voc_candidato_est_a_par_e_tem_consci_ncia_das_dificuldades_apresentadas_n_n_o_momento_de_voc_candidato_dissertar_seu_ponto_de_vista_e_demonstrar_o_quanto_voc_tem_vis_o_para_na_p_gina_de_propostas_e_projetos_integrar_o_seu_trabalho_com_grande_maestria"/>
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        tools:ignore="SmallSp" />
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/side_nav_bar2"
+        tools:ignore="SmallSp" />
+    <TextView android:text="@string/nossa_cidade"
+        />
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        tools:ignore="SmallSp" />
+    <TextView android:text="@string/esta_p_gina_o_candidato_pode_colocar_o_seu_ponto_de_vista_sobre_os_problemas_e_dificuldades_que_ocorrem_na_cidade_ou_gest_o_atual_n_n_o_momento_de_demonstrar_que_voc_candidato_est_a_par_e_tem_consci_ncia_das_dificuldades_apresentadas_n_n_o_momento_de_voc_candidato_dissertar_seu_ponto_de_vista_e_demonstrar_o_quanto_voc_tem_vis_o_para_na_p_gina_de_propostas_e_projetos_integrar_o_seu_trabalho_com_grande_maestria"/>
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        tools:ignore="SmallSp" />
+    <View android:layout_height="3sp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/side_nav_bar2"
+        tools:ignore="SmallSp" />
+
+</TableLayout>
+
+</ScrollView>

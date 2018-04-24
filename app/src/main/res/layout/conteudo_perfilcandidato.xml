@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTÓRICO DO CANDIDATO:"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       João de Santo Cristo é um personagem fictício que aparece na música Faroeste Caboclo da banda de rock Legião Urbana.
+        A música conta a história de um brasileiro comum que deixa sua cidade natal e se muda para Brasília em busca de uma vida melhor. João deseja achar o seu lugar no mundo.
+        Ele é um homem que está insatisfeito com o lugar de onde veio e que já tem de nascença a dureza da vida. " />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origem: Wikipédia, a enciclopédia livre."/>
+    <View
+        android:background="@color/com_facebook_button_background_color"
+        android:layout_width="wrap_content"
+        android:layout_height="2sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMAÇÃO ESCOLAR:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Na escola até o professor com ele aprendeu. Mas aos 15 foi mandado para o reformatório...." />
+
+    <View
+        android:background="@color/com_facebook_button_background_color"
+        android:layout_width="wrap_content"
+        android:layout_height="2sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTÓRICO DO CANDIDATO:"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       João de Santo Cristo é um personagem fictício que aparece na música Faroeste Caboclo da banda de rock Legião Urbana.
+        A música conta a história de um brasileiro comum que deixa sua cidade natal e se muda para Brasília em busca de uma vida melhor. João deseja achar o seu lugar no mundo.
+        Ele é um homem que está insatisfeito com o lugar de onde veio e que já tem de nascença a dureza da vida. " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origem: Wikipédia, a enciclopédia livre."/>
+</LinearLayout>
+
+
+

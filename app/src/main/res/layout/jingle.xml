@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c1f9f1"
+    tools:context=".activity_Candidato.PlayerJingle">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/side_nav_bar2"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="UnusedAttribute" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/linearLayout"
+    android:layout_below="@+id/seekBar"
+    android:layout_centerHorizontal="true">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:src="@drawable/botao_avanco"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/button2"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam"
+        android:contentDescription="" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:src="@drawable/botao_pause"
+        android:id="@+id/button2"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+        android:contentDescription="" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:src="@drawable/bota_play"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+        android:contentDescription="" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:src="@drawable/botao_retrocesso"
+        android:id="@+id/button4"
+        android:layout_toRightOf="@+id/seekBar"
+        android:layout_toEndOf="@+id/seekBar"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam"
+        android:contentDescription="" />
+</LinearLayout>
+
+    <SeekBar
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/seekBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignRight="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar" />
+
+</RelativeLayout>
